@@ -1,0 +1,3 @@
+import { Container, Typography } from '@mui/material'
+
+export function AboutPage() { return <Container maxWidth="md" sx={{ py: { xs: 7, md: 11 } }}><Typography variant="overline" color="secondary" fontWeight={900}>Our story</Typography><Typography variant="h1" sx={{ color: 'primary.main', fontSize: { xs: 55, md: 78 }, lineHeight: .95 }}>Keep the good miles close.</Typography><Typography color="text.secondary" sx={{ fontSize: { xs: 18, md: 22 }, lineHeight: 1.6, mt: 3 }}>Wallvica turns the journeys you carry with you into artwork you can live with. For the road you still talk about, the view you can’t forget, and the people who were there.</Typography></Container> }
